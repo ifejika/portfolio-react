@@ -1,0 +1,52 @@
+.hero{
+    display: flex ;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.hero img{
+    margin-top: 150px;
+    width: 400px;      /* Set the width */
+  height: 400px;     /* Set the height */
+  border-radius: 50%;  /* Make it circular */
+  object-fit: cover;  /* Ensure the image covers the container */
+  border: 5px solid #cccccc00; /* Optional: Add a border around the circle */
+}
+.hero h1{
+    text-align: center;
+    width: 70%;
+    font-size: 90px;
+    font-weight: 600;
+}
+.hero p{
+    width: 50%;
+    text-align: center;
+    font-size: 24;
+    line-height: 40px; /*this is for the paragraph i would add later */
+}
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size:24px ;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.hero-connect{
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #df8908  -5.09%, #b415ff 106.28% );
+    cursor: pointer;
+}
+.hero-resume{
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.hero-connect:hover{
+    border: 2px solid #fff ;
+}
+.hero-resume:hover{
+    border: 2px solid #fff;
+}
