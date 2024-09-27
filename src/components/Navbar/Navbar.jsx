@@ -1,10 +1,10 @@
 import React from 'react'
 import './Navbar.css'
-import logo from '../../assets/logo.svg' /* the ../.. is used to navigate through the code structure to use a folder content */
+import theme_pattern from '../../assets/theme_pattern.svg' /* the ../.. is used to navigate through the code structure to use a folder content */
 const Navbar = () => {
   return (
     <div className='navbar'> {/*class*/}
-<img src={logo} alt="" />
+<img src={theme_pattern} alt="" />
 <ul className= "nav-menu"> {/*class*/}
     <li>Home</li>
     <li>About Me</li>
