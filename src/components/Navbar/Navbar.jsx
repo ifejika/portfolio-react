@@ -1,3 +1,5 @@
+/**DANIEL IFEJIKA 301197154 2024-09-27 */
+
 import React from 'react'
 import './Navbar.css'
 import theme_pattern from '../../assets/theme_pattern.svg' /* the ../.. is used to navigate through the code structure to use a folder content */

@@ -1,3 +1,5 @@
+/**DANIEL IFEJIKA 301197154 2024-09-27 */
+
 import React from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'

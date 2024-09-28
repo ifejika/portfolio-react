@@ -1,3 +1,5 @@
+/**DANIEL IFEJIKA 301197154 2024-09-27 */
+
 import React from 'react'  //rafce is a short cut 
 import './Hero.css'
 import profile from '../../assets/profile img.png';
